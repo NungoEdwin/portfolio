@@ -80,8 +80,8 @@ html{
   border-radius: 10px;
   /* color:white; */
   padding: 20px;
-  width: 80%;
-  height: 200px;
+  max-width: 80%;
+  height: auto;
   margin: 5px;
   box-shadow: 0px 2px 8px 0 black;
   .card_details {
@@ -89,10 +89,10 @@ html{
     justify-content: flex-start;
 
     img {
-      width: 40%;
-      height: 190px;
+      width: 300px;
+      height: 90%;
       object-fit: cover;
-      border-radius: 50%;
+      border-radius: 10%;
       margin-right: 150px;
     }
 
@@ -104,7 +104,7 @@ html{
     display: flex;
     justify-content: center;
 
-    button {
+    a {
       background-color:aquamarine;
       padding: 5px;
       font-style: italic;
@@ -112,10 +112,12 @@ html{
       border-radius: 5px;
       margin-bottom: 35px;
       transition: background-color 1s;
+      color:black;
+      text-decoration: none;
 
     }
 
-    button:hover {
+    a:hover {
       background-color: aliceblue;
     }
   }
