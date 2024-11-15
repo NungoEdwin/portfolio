@@ -6,3 +6,5 @@ This is my first portfolio site which have ever developed and this still have al
 - cd templates
 - then click on the index.html file and the page would spin up on the browser 
  ```
+## Live Site
+[Live Website](https://portfolio-gzg7.onrender.com/)
