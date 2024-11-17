@@ -59,7 +59,7 @@ html {
   background-clip: content-box;
   background-repeat: no-repeat;
   background-position: bottom;
-  height: 500px;
+  height: auto;
   width: 100%;
 
   /* img{
@@ -85,13 +85,14 @@ html {
   .card_details {
     display: flex;
     justify-content: flex-start;
+    overflow: hidden;
 
     img {
-      max-width: 300px;
+      max-width: 40%;
       height: 90%;
       object-fit: cover;
       border-radius: 10%;
-      margin-right: 150px;
+      margin-right:2%;
     }
   }
 
