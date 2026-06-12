@@ -1,4 +1,10 @@
-@import "tailwindcss"
+@import "tailwindcss";
+@theme {
+  --color-aquamarine: #7fffd4;
+   --color-aliceblue: #F0F8FF;
+}
+
+
 /*.counter {
   font-size: 16px;
   padding: 5px 10px;
