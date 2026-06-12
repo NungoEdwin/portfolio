@@ -1,4 +1,8 @@
-/* @import "tailwindcss" */
+ @import "tailwindcss";
+ body{
+  /* background-color:black;
+  color:white; */
+ }
 /* :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -31,7 +35,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme:dark) {
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
@@ -53,7 +57,8 @@
 
 body {
   margin: 0;
-}
+  /* background-color: #0a192f; */
+/*}
 
 #root {
   width: 1126px;
@@ -110,4 +115,4 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
-  */
+*/

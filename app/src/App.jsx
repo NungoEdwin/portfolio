@@ -10,12 +10,14 @@ function App() {
 
   return (
     <>
-      <section id="center">
-        <div className="hero bg-blue-500">
-          <img src={heroImg} className="base" width="170" height="179" alt="" />
-          <img src={reactLogo} className="framework" alt="React logo" />
-          <img src={viteLogo} className="vite" alt="Vite logo" />
+      <section className='flex justify-end-safe'>
+        <div className=" flex justify-between m-17">
+           <Button text="About" className="mr-5"></Button>
+           <Button text="Projects" className="mr-5"></Button>
+           <Button text="Contacts" className=""></Button>
         </div>
+        </section>
+        <section>
         <div>
           <h1 className='text-blue-500'>Get started</h1>
           <p>
@@ -29,7 +31,6 @@ function App() {
         >
           Count is {count}
         </button>
-        <Button text="Aananananna"></Button>
       </section>
 
       <div className="ticks"></div>
