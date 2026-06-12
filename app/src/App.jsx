@@ -10,27 +10,26 @@ function App() {
 
   return (
     <>
-      <section className='flex justify-end-safe'>
+      <section className='navigation flex justify-end-safe'>
         <div className=" flex justify-between m-17">
-           <Button text="About" className="mr-5"></Button>
-           <Button text="Projects" className="mr-5"></Button>
-           <Button text="Contacts" className=""></Button>
+           <Button text="About"/>
+           <Button text="Projects" ></Button>
+           <Button text="Contacts" ></Button>
         </div>
         </section>
-        <section>
-        <div>
-          <h1 className='text-blue-500'>Get started</h1>
-          <p>
-            Edit <code>src/App.jsx</code> and save to test <code>HMR</code>
-          </p>
+        <section className='intro'>
+        <div className='flex flex-col ml-10'>
+          <h3 className='text-gray-400 font-serif text-xl font-semibold'>Hi, my name is</h3>
+          <p className='text-7xl text-gray-400 font-serif font-bold'>
+              Nungo Edwin <br />
+              I build things for the web<br/>
+              and your mobile.  
+         </p>
+         <p className='text-gray-400 font-serif text-xl text-medium'>
+          I'm software developer specializing in building exceptional digital experiences
+         </p>
         </div>
-        <button
-          type="button"
-          className="counter"
-          onClick={() => setCount((count) => count + 1)}
-        >
-          Count is {count}
-        </button>
+        
       </section>
 
       <div className="ticks"></div>
