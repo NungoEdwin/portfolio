@@ -24,8 +24,8 @@ return(
             
             <div className="card_btn flex justify-center">
 
-                <Button text='View Project' textSize='text-l'/>
-                {/* <a href="https://learn.zone01kisumu.ke/git/enungo/groupie-tracker-filters">View Project</a> */}
+                <Button text='View Project' textSize='text-l' href="https://learn.zone01kisumu.ke/git/enungo/groupie-tracker-filters"/>
+                
             </div>
             </div>
 

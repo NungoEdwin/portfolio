@@ -14,12 +14,12 @@ function App() {
     <>
       <section className='navigation flex justify-end-safe'>
         <div className=" flex justify-between m-17">
-           <Button text="About" textSize='text-xl'/>
-           <Button text="Projects"textSize='text-xl' ></Button>
-           <Button text="Contacts" textSize='text-xl' ></Button>
+           <Button text="About" textSize='text-xl' href="#about"/>
+           <Button text="Projects"textSize='text-xl' href="#projects" ></Button>
+           <Button text="Contacts" textSize='text-xl' href="#contacts" ></Button>
         </div>
         </section>
-        <section className='intro'>
+        <section className='intro' id="about">
         <div className='flex flex-col ml-10'>
           <h3 className='text-gray-400 font-serif text-xl font-semibold'>Hi, my name is</h3>
           <p className='text-7xl text-gray-400 font-serif font-bold'>
@@ -34,7 +34,7 @@ function App() {
         
       </section>
 
-      <section className="body">
+      <section className="body" id="projects">
       <h2 className='flex justify-center font-serif font-semibold text-2xl mb-3'> Projects</h2>
        <Card picture={Picture} title='Groupie Tracker'></Card>
       
