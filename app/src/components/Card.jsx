@@ -3,7 +3,7 @@ import Button from "./Button";
 export default function Card({picture,text,title,link}){
 return(
     <>
-<div className="card  shadow-xl bg-white-200 p-4 rounded-2xl mb-4 border border-gray-200">
+<div className="card  shadow-lg bg-white-200 p-4 rounded-2xl mb-4 border border-gray-200">
  <div className="card_details flex justify-start">
                 <img src={picture} alt="cardpicture" className='w-96 h-64 rounded-2xl mr-4'></img>
 
@@ -24,7 +24,7 @@ return(
             
             <div className="card_btn flex justify-center">
 
-                <Button text='View Project'/>
+                <Button text='View Project' textSize='text-l'/>
                 {/* <a href="https://learn.zone01kisumu.ke/git/enungo/groupie-tracker-filters">View Project</a> */}
             </div>
             </div>

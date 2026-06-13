@@ -14,9 +14,9 @@ function App() {
     <>
       <section className='navigation flex justify-end-safe'>
         <div className=" flex justify-between m-17">
-           <Button text="About"/>
-           <Button text="Projects" ></Button>
-           <Button text="Contacts" ></Button>
+           <Button text="About" textSize='text-xl'/>
+           <Button text="Projects"textSize='text-xl' ></Button>
+           <Button text="Contacts" textSize='text-xl' ></Button>
         </div>
         </section>
         <section className='intro'>
