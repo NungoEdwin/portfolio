@@ -4,6 +4,8 @@ import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
 import Button from './components/Button'
+import Card from './components/Card'
+import Picture from './assets/groupie.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -32,7 +34,13 @@ function App() {
         
       </section>
 
-      <div className="ticks"></div>
+      <section className="body">
+      <h2 className='flex justify-center font-serif font-semibold text-2xl mb-3'> Projects</h2>
+       <Card picture={Picture} title='Groupie Tracker'></Card>
+      
+
+
+      </section>
 
       <section id="next-steps">
         <div id="docs">
