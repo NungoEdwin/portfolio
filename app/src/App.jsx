@@ -34,7 +34,7 @@ function App() {
         
       </section>
 
-      <section className="body" id="projects">
+      <section className="body px-30" id="projects">
       <h2 className='flex justify-center font-serif font-semibold text-2xl mb-3'> Projects</h2>
        <Card picture={Picture} title='Groupie Tracker'></Card>
       
