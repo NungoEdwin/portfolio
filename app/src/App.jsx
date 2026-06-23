@@ -30,6 +30,7 @@ function App() {
          <p className='text-gray-400 font-serif text-xl text-medium'>
           I'm software developer specializing in building exceptional digital experiences
          </p>
+         <div className='text-2xl tet-extrabold font-serif  p-3 border border-aquamarine border-3 rounded-xl w-40 flex justify-center '>Hire me</div>
         </div>
         
       </section>
