@@ -20,17 +20,18 @@ function App() {
         </div>
         </section>
         <section className='intro' id="about">
-        <div className='flex flex-col ml-10'>
-          <h3 className='text-gray-400 font-serif text-xl font-semibold'>Hi, my name is</h3>
-          <p className='text-7xl text-gray-400 font-serif font-bold'>
+        <div className='flex flex-col ml-10 text-gray-400'>
+          <h3 className='font-serif text-xl font-semibold'>Hi, my name is</h3>
+          <p className='text-7xl font-serif font-bold'>
               Nungo Edwin <br />
               I build things for the web<br/>
               and your mobile.  
          </p>
-         <p className='text-gray-400 font-serif text-xl text-medium'>
+         <p className='font-serif text-xl text-medium'>
           I'm software developer specializing in building exceptional digital experiences
          </p>
-         <div className='text-2xl tet-extrabold font-serif  p-3 border border-aquamarine border-3 rounded-xl w-40 flex justify-center '>Hire me</div>
+         <div className='text-2xl tet-extrabold font-serif  p-3 border border-aquamarine
+          border-3 rounded-xl w-50 flex justify-center italic'>Hire Me</div>
         </div>
         
       </section>
