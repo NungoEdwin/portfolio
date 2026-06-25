@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
@@ -9,6 +9,14 @@ import Picture from './assets/groupie.png'
 
 function App() {
   const [count, setCount] = useState(0)
+  const [projects, setProjects] = useState([]);
+
+  useEffect(() => {
+    fetch("/projects.json")
+      .then((response) => response.json())
+      .then((data) => setUsers(data.projects))
+      .catch((error) => console.error(error));
+  }, []);
 
   return (
     <>
@@ -38,7 +46,9 @@ function App() {
 
       <section className="body px-30" id="projects">
       <h2 className='flex justify-center font-serif font-semibold text-2xl mb-3'> Projects</h2>
-       <Card picture={Picture} title='Groupie Tracker'></Card>
+      {projects.map((project)=>{ 
+      <Card project={project}></Card>
+})}
       
 
 
