@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Groupie Tracker",
-      "picture":"../assets/groupie.png",
+      "picture":"/images/groupie.png",
       "link":"https://learn.zone01kisumu.ke/git/enungo/groupie-tracker-filters",
     
       "about": "Groupie Tracker is a web application that allows music enthusiasts to explore and discover information about various artists and bands.\n\nOur platform provides detailed data on artists' creation dates, first album releases, members, and upcoming concert locations.\n\nWith an interactive interface, users can search, filter, and visualize artist information, making it easier than ever to stay up to date with their favorite musicians and discover new ones."
