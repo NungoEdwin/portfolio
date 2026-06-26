@@ -14,9 +14,10 @@ function App() {
   useEffect(() => {
     fetch("/projects.json")
       .then((response) => response.json())
-      .then((data) => setUsers(data.projects))
+      .then((data) => setProjects(data.projects))
       .catch((error) => console.error(error));
   }, []);
+  console.log(projects);
 
   return (
     <>
@@ -46,9 +47,10 @@ function App() {
 
       <section className="body px-30" id="projects">
       <h2 className='flex justify-center font-serif font-semibold text-2xl mb-3'> Projects</h2>
-      {projects.map((project)=>{ 
-      <Card project={project}></Card>
-})}
+      {projects.map((project)=>
+      
+      <Card key={project.id} project={project}></Card>
+)}
       
 
 
