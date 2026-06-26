@@ -13,16 +13,16 @@
     {
       "id": 2,
       "name": "Ascii Art",
-      "picture":"",
-      "link":"",
-      "about": ""
+      "picture":"/images/ascii-art-color.png",
+      "link":"https://learn.zone01kisumu.ke/git/enungo/ascii-art",
+      "about": "This is a program that takes a string and outputs it in an art form out of ASCII characters.This project handles an input with numbers, letters, spaces, special characters and \n.This project is developed using the Go language.\nThis Project was developed during Module phase at zone01 Kisumu cohort"
     },
     {
       "id": 3,
       "name": "Ascii Web",
-      "picture":"",
-      "link":"",
-      "about": ""
+      "picture":"/images/art-web.png",
+      "link":"https://learn.zone01kisumu.ke/git/gonyango/ascii-art-web",
+      "about": "The ASCII Art Web is a program written to generate ASCII art from a given string or its specified substring and writes the output to a webpage."
     }
   ]
 }
